@@ -1,17 +1,17 @@
 <idea-plugin version="2">
-  <id>net.fmb.idea.octave</id>
+  <id>org.intellij.plugins.octave</id>
   <name>GNU Octave plugin</name>
   <version>0.1</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="dmitry.revenko@gmail.com" url="https://github.com/demongoo">Dmitry Revenko</vendor>
 
-  <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <small>most HTML tags may be used</small>
-      ]]></description>
+  <description>GNU Octave plugin</description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <small>most HTML tags may be used</small>
+      <p>0.1</p>
+      <ul>
+        <li>Project created</li>
+        <li>*.m File Type</li>
+      </ul>
       ]]>
   </change-notes>
 
@@ -35,6 +35,7 @@
   </actions>
 
   <extensions defaultExtensionNs="com.intellij">
-    <fileTypeFactory implementation="net.fmb.idea.octave.filetype.Factory"/>
+    <fileTypeFactory implementation="org.intellij.plugins.octave.filetype.Factory"/>
+    <lang.syntaxHighlighterFactory key="Octave" implementationClass="org.intellij.plugins.octave.highlighter.Factory"/>
   </extensions>
 </idea-plugin>
