@@ -4,7 +4,7 @@
     <list default="true" id="4b2573ac-1bba-4522-b542-cde66fc6288e" name="Default" comment="" />
     <ignored path="Idea Octave Plugin.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4b2573ac-1bba-4522-b542-cde66fc6288e" time="1383142283941" ignored="false" />
+    <file path="/Dummy.txt" changelist="4b2573ac-1bba-4522-b542-cde66fc6288e" time="1384264026815" ignored="false" />
     <file path="/MFileType.scala" changelist="4b2573ac-1bba-4522-b542-cde66fc6288e" time="1383129275796" ignored="false" />
     <file path="/fragment.java" changelist="4b2573ac-1bba-4522-b542-cde66fc6288e" time="1383129720821" ignored="false" />
     <file path="/Factory.scala" changelist="4b2573ac-1bba-4522-b542-cde66fc6288e" time="1383130035703" ignored="false" />
@@ -13,7 +13,9 @@
     <file path="/.gitignore" changelist="4b2573ac-1bba-4522-b542-cde66fc6288e" time="1383062329304" ignored="false" />
     <file path="/Highlighter.scala" changelist="4b2573ac-1bba-4522-b542-cde66fc6288e" time="1383129359674" ignored="false" />
     <file path="/README.md" changelist="4b2573ac-1bba-4522-b542-cde66fc6288e" time="1383143822610" ignored="false" />
-    <file path="/octave.flex" changelist="4b2573ac-1bba-4522-b542-cde66fc6288e" time="1383143905609" ignored="false" />
+    <file path="/octave.flex" changelist="4b2573ac-1bba-4522-b542-cde66fc6288e" time="1384440387084" ignored="false" />
+    <file path="/gen.bat" changelist="4b2573ac-1bba-4522-b542-cde66fc6288e" time="1384440183505" ignored="false" />
+    <file path="/jflex.bat" changelist="4b2573ac-1bba-4522-b542-cde66fc6288e" time="1384438427406" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +30,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -64,7 +67,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -83,15 +85,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="15" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OctaveSyntaxHighlighter.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/intellij/plugins/octave/highlighter/OctaveSyntaxHighlighter.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,7 +97,16 @@
       <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/misc/lexer/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="9" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+            <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lex.ll" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/misc/lexer/lex.ll">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="279" column="6" selection-start="6873" selection-end="7249" vertical-scroll-proportion="0.34615386">
               <folding />
             </state>
           </provider>
@@ -113,30 +115,10 @@
       <file leaf-file-name="octave.flex" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/misc/lexer/octave.flex">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="9" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+            <state line="26" column="27" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1383143814000" expanded="true" signature="56:170" placeholder="..." />
+                <marker date="1384440529000" expanded="true" signature="56:170" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="octave.flex" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/intellij/plugins/octave/lang/lexer/octave.flex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="59" selection-start="219" selection-end="219" vertical-scroll-proportion="0.29198474">
-              <folding>
-                <marker date="1383143905000" expanded="true" signature="56:170" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lex.ll" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/misc/lexer/lex.ll">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="16" selection-start="3652" selection-end="3658" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -145,15 +127,6 @@
         <entry file="file://$PROJECT_DIR$/src/org/intellij/plugins/octave/highlighter/Factory.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="62" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -186,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/net/fmb/idea/octave/MFileType.scala" />
         <option value="$PROJECT_DIR$/src/net/fmb/idea/octave/filetype/Factory.scala" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/net/fmb/idea/octave/filetype/MFileType.scala" />
@@ -198,17 +170,18 @@
         <option value="$PROJECT_DIR$/src/org/intellij/plugins/octave/highlighter/Factory.scala" />
         <option value="$PROJECT_DIR$/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/src/org/intellij/plugins/octave/highlighter/OctaveSyntaxHighlighter.scala" />
-        <option value="$PROJECT_DIR$/misc/lexer/octave.flex" />
         <option value="$PROJECT_DIR$/misc/lexer/README.md" />
+        <option value="D:/Programs/jflex-1.4.3/bin/jflex.bat" />
         <option value="$PROJECT_DIR$/src/org/intellij/plugins/octave/lang/lexer/octave.flex" />
+        <option value="$PROJECT_DIR$/misc/lexer/gen.bat" />
+        <option value="$PROJECT_DIR$/misc/lexer/octave.flex" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1742" />
-    <option name="y" value="140" />
+    <option name="x" value="-1306" />
     <option name="width" value="1306" />
-    <option name="height" value="728" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -236,7 +209,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -377,7 +350,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -548,7 +521,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1742" y="140" width="1306" height="728" extended-state="0" />
+    <frame x="-1306" y="0" width="1306" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -559,7 +532,6 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924694" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924694" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -570,6 +542,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924694" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -639,20 +612,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/intellij/plugins/octave/filetype/Factory.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="38" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
@@ -695,9 +654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/intellij/plugins/octave/filetype/MFileType.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/intellij/plugins/octave/highlighter/Factory.scala">
@@ -721,35 +678,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/misc/lexer/lex.ll">
+    <entry file="file://D:/Programs/jflex-1.4.3/bin/jflex.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="16" selection-start="3652" selection-end="3658" vertical-scroll-proportion="0.0">
+        <state line="15" column="44" selection-start="430" selection-end="430" vertical-scroll-proportion="0.29109588">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/misc/lexer/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="9" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/misc/lexer/octave.flex">
+    <entry file="file://$PROJECT_DIR$/misc/lexer/gen.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1383143814000" expanded="true" signature="56:170" placeholder="..." />
-          </folding>
+        <state line="0" column="92" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/intellij/plugins/octave/lang/lexer/octave.flex">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="59" selection-start="219" selection-end="219" vertical-scroll-proportion="0.29198474">
+        <state line="14" column="31" selection-start="0" selection-end="274" vertical-scroll-proportion="0.2716895">
           <folding>
-            <marker date="1383143905000" expanded="true" signature="56:170" placeholder="..." />
+            <marker date="1384440021000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/misc/lexer/octave.flex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="27" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1384440529000" expanded="true" signature="56:170" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/misc/lexer/lex.ll">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="279" column="6" selection-start="6873" selection-end="7249" vertical-scroll-proportion="0.34615386">
+          <folding />
         </state>
       </provider>
     </entry>

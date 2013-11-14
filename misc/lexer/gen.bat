@@ -1,0 +1,1 @@
+"D:\Programs\jflex-1.4.3\bin\jflex.bat" -d "..\..\src\org\intellij\plugins\octave\lang\lexer" octave.flex
