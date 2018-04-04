@@ -1,6 +1,8 @@
 # Project-specific ignores
 out
 Idea\ Octave\ Plugin.jar
+idea-flex.skeleton
+jflex-1.7.0.jar
 
 # Scala ignores
 *.class
