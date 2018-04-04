@@ -6,8 +6,8 @@ import org.jetbrains.annotations.NotNull;
 
 %%
 
-%%class _OctaveLexer
-%%implements FlexLexer
+%class _OctaveLexer
+%implements FlexLexer
 %unicode
 %public
 
@@ -25,3 +25,5 @@ EXPON = ([DdEe][+-]?{D}+)
 NUMBER = (({D}+\.?{D}*{EXPON}?)|(\.{D}+{EXPON}?)|(0[xX][0-9a-fA-F]+))
 
 ANY_INCLUDING_NL = (.|{NL})
+
+%%
